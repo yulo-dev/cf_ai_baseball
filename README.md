@@ -1,6 +1,6 @@
 # Baseball Stats AI ⚾
 
-**🔗 [Live Demo](https://cf-ai-baseball.loyu.workers.dev/)** - Try it now!
+**🔗 [Live Demo](https://cf_ai_baseball.loyu.workers.dev/)** - Try it now!
 
 ---
 

@@ -159,4 +159,4 @@ npx wrangler tail
 
 ---
 
-**⚡ Powered by Cloudflare Workers | 🤖 AI by Meta Llama 3.3 | 📊 Data by Lahman**
+**⚡ Powered by Cloudflare Workers | AI by Meta Llama 3.3 | Data by Lahman**

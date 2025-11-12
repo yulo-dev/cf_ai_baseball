@@ -1,0 +1,36 @@
+cat > .gitignore << 'EOF'
+# Dependencies
+node_modules/
+
+# Wrangler
+.wrangler/
+.dev.vars
+
+# Build outputs
+dist/
+
+# System files
+.DS_Store
+*.zip
+
+# My personal documentation (will not be uploaded to GitHub)
+DEPLOYMENT.md
+EXAMPLES.md
+FILE_STRUCTURE.md
+PROJECT_SUMMARY.md
+PROJECT_S*.txt
+PROMPTS.md
+QUICKSTART.md
+README.md
+START_HERE.md
+SUBMISSION_GUIDE.md
+LICENSE
+
+# Documentation from Claude
+*_DOCUMENTATION.md
+*_REFERENCE.md
+*_GUIDE.md
+CF_AI_BASEBALL_PROJECT_DOCUMENTATION.md
+QUICK_REFERENCE.md
+GITHUB_AND_SUBMISSION_GUIDE.md
+EOF

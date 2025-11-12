@@ -1,0 +1,22 @@
+name = "cf-ai-baseball"
+main = "workers/agent.ts"
+compatibility_date = "2024-11-01"
+
+# D1 Database binding
+[[d1_databases]]
+binding = "DB"
+database_name = "lahman_ai"
+database_id = "b6cf30e5-31b7-418f-a448-49180008d229"
+
+# AI binding for Workers AI
+[ai]
+binding = "AI"
+
+# Durable Object for conversation state (optional, for future enhancement)
+# [[durable_objects.bindings]]
+# name = "CHAT_STATE"
+# class_name = "ChatState"
+
+# Environment variables (optional)
+[vars]
+ENVIRONMENT = "production"

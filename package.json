@@ -1,0 +1,29 @@
+{
+  "name": "cf_ai_baseball",
+  "version": "1.0.0",
+  "description": "AI-powered Baseball Stats Assistant on Cloudflare",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "seed": "tsx scripts/seed_d1.ts",
+    "snapshot": "tsx scripts/snapshot_small.ts"
+  },
+  "keywords": [
+    "cloudflare",
+    "workers",
+    "ai",
+    "baseball",
+    "llama"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20241127.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3",
+    "wrangler": "^3.82.0"
+  },
+  "dependencies": {
+    "@cloudflare/ai": "^1.0.59"
+  }
+}

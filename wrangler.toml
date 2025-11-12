@@ -1,4 +1,4 @@
-name = "cf-ai-baseball"
+name = "cf_ai_baseball"
 main = "workers/agent.ts"
 compatibility_date = "2024-11-01"
 
